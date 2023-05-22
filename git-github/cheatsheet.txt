@@ -1,0 +1,32 @@
+Configuración inicial
+
+git config --global user.name "Tu Nombre": Configura el nombre de usuario que se asociará con tus commits.
+git config --global user.email "tu@correo.com": Configura la dirección de correo electrónico asociada con tus commits.
+Crear y clonar repositorios
+
+git init: Inicia un nuevo repositorio local en tu directorio de trabajo actual.
+git clone <url>: Clona un repositorio remoto existente en tu máquina local.
+Gestionar cambios
+
+git add <archivo>: Agrega un archivo específico o cambios en él al área de preparación.
+git add . o git add --all: Agrega todos los archivos modificados y eliminados al área de preparación.
+git commit -m "Mensaje del commit": Crea un nuevo commit con los cambios en el área de preparación y agrega un mensaje descriptivo.
+git status: Muestra el estado actual de tu repositorio, incluyendo archivos modificados, añadidos o eliminados.
+Sincronizar cambios
+
+git push: Envía tus commits locales al repositorio remoto.
+git pull: Obtiene y fusiona los cambios más recientes del repositorio remoto en tu rama local.
+git fetch: Descarga los últimos cambios del repositorio remoto sin fusionarlos automáticamente con tu rama local.
+Ramas
+
+git branch: Muestra una lista de las ramas en tu repositorio, resaltando la rama actual.
+git branch <nombre_rama>: Crea una nueva rama con el nombre especificado.
+git checkout <nombre_rama>: Cambia a la rama especificada.
+git merge <nombre_rama>: Fusiona la rama especificada con la rama actual.
+git stash: Guarda temporalmente los cambios no comprometidos para trabajar en otra rama.
+Registro y deshacer cambios
+
+git log: Muestra el historial de commits.
+git diff: Muestra las diferencias entre los archivos modificados y los commits anteriores.
+git reset <commit>: Deshace los commits hasta el commit especificado, eliminando los cambios posteriores.
+git revert <commit>: Crea un nuevo commit que deshace los cambios introducidos en el commit especificado.
